@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/salah3"
+    tools:context=".Main5Daily" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/salah4"
+        android:text="El Fajr"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_centerVertical="true"
+        android:background="@drawable/salah4"
+        android:text="El Assr"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button02"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/salah4"
+        android:text="El zohr"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button02"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/salah4"
+        android:text="El Magreb"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_below="@+id/Button03"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/salah4"
+        android:text="El Asha"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="The Daily 5 prayers"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FCFCFC"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

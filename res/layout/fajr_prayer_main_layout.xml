@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="wrap_content"
+        android:layout_height="439dp"
+        android:layout_marginBottom="1px" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            layout="@layout/fajr_layout_1" />
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/fajr_layout_2" />
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/fajr_layout_3" />
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/fajr_layout_4" />
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/fajr_layout_5" />
+        
+    </ViewFlipper>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent" >
+
+	<Button
+	    android:id="@+id/prevBtn"
+	    android:layout_width="160dp"
+	    android:layout_height="wrap_content"
+	    android:text="&lt; Prev" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Next >" />
+    
+	</LinearLayout>
+    
+    
+</LinearLayout>
+
+
+    
+    
